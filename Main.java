@@ -83,6 +83,12 @@ public class Main {
 
 
     //Katelyn’s Methods
+
+    /**@author Katelyn Ho katellyn.ho@gmail.com
+     * Description: Prints fun facts about giraffes
+     * Pre-condition: None
+     * Post-condition: 4 interesting facts about giraffes are printed and the program ends
+     **/
     public static void funFacts(){
         boolean matriarchal = true;
         int avgLifeSpan = 13;
@@ -96,7 +102,11 @@ public class Main {
         System.out.println("You will never believe this, but giraffes have eyeballs the size of " + eyeballSize + "!");
     }
 
-
+    /**@author Katelyn Ho katellyn.ho@gmail.com
+     * Description: Prints the scientific names of different species of giraffes
+     * Pre-condition: None
+     * Post-condition: Scientific names of 4 different giraffe species are printed and the program ends
+     **/
     public static void scientificNames(){
 
 
@@ -113,7 +123,11 @@ public class Main {
 
     //Noah’s Methods
 
-
+    /**@author Noah Vargas Polo noahvargaspolo73@gmail.com
+     * Description: Calculates and prints projected population growth of giraffes
+     * Pre-condition: User input of desired years must be a positive integer
+     * Post-condition: The projected population growth using the user input of desired years is printed and the program ends
+     **/
     //calculates projected population growth
     //It won't grow 2100 for EVERY species, but it's a general estimate
     public static void calculateGrowth(int currentPop, int years){
@@ -121,7 +135,11 @@ public class Main {
         System.out.println("In " + years + " years, the projected population grows to: " + projectedPop);
     }
 
-
+    /**@author Noah Vargas Polo noahvargaspolo73@gmail.com
+     * Description: Calculates and prints population decline of giraffes
+     * Pre-condition: None
+     * Post-condition: The calculated population decline is printed and the program ends
+     **/
     //calculates decline by creating local variable(s)
     public static void calculateDecline(int pastPop, int currentPop){
         int loss = pastPop - currentPop;
@@ -134,11 +152,11 @@ public class Main {
     //Jeffrey's Methods
 
 
-    /**
-     * Displays the endangered status of various giraffe types.
-     *
-     * @author Jeffrey Silvas jeffreysilvas09@gmail.com
-     * **/
+    /**@author Jeffrey Silvas jeffreysilvas09@gmail.com
+     * Description: Prints the endangered status of various giraffe types.
+     * Pre-condition: None
+     * Post-condition: The endangered status of 4 diferent giraffe species are printed and the program ends.
+     **/
     static void endangeredStatus() {
         //STATUS
         String northernStatus = "Critically Endangered";
@@ -155,11 +173,11 @@ public class Main {
     }
 
 
-    /**
-     * Displays anatomical facts about various types of giraffe.
-     *
-     * @author Jeffrey Silvas jeffreysilvas09@gmail.com
-     * **/
+    /**@author Jeffrey Silvas jeffreysilvas09@gmail.com
+     * Description: Prints anatomical facts about giraffes.
+     * Pre-condition: None
+     * Post-condition: 4 different anatomical facts about giraffes are printed and the program ends.
+     **/
     static void anatomicalFacts() {
         // ANATOMICAL FACTS (meters)
         double largestPossibleNeckLength = 1.8;
