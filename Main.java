@@ -65,14 +65,8 @@ public class Main {
             case "6":
                 calculateDecline(popIn1980s, popIn2026);
                 break;
-            case "7":
-                System.out.println("This method has not been implemented yet. Sorry!");
-                break;
-            case "8":
-                System.out.println("This method has not been implemented yet. Sorry!");
-                break;
             default:
-                System.out.println("Please enter a valid number 1-8.");
+                System.out.println("Please enter a valid number 1-6.");
                 break;
         }
 
