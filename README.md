@@ -1,5 +1,5 @@
 # UD1-Project-By-TheAnimalScientists
-Created by: Jeffrey Silvas, Katelyn Ho, Noah Vargas Polo, Kevin Lopez
+Created by: Jeffrey Silvas, Katelyn Ho, Noah Vargas Polo
 
 The Giraffe Research Program is an application designed to educate users on the giraffe species and populations. It contains an assortment of facts and statistics, as well as functionality to make relevant calculations and averages.
 How It Works: 
